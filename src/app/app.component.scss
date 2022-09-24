@@ -1,0 +1,182 @@
+body {
+    font-family: Poppins;
+    color: #022e57;
+    /*  background: #1b2430; */
+    /* background: #1b262c;
+    color: #03506F; */
+  }
+  .size {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+  .icon-color {
+    color: #022e57;
+  }
+  .btn {
+    background: #008a59;
+    border-color: #008a59;
+    color: #ffffff;
+  }
+  .btn:hover {
+    background-color: #00c67a;
+    border-color: #00c67a;
+    color: #ffffff;
+  }
+  .linkedin {
+    color: #404756;
+  }
+  /* .linkedin:hover {
+    color: #0072b1;
+  } */
+  
+  .buttons {
+    background-color: #008a59;
+  }
+  /* .white {
+    color: #ffffff;
+  } */
+  .image {
+    width: 5rem;
+    height: 5rem;
+  }
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+      inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  }
+  
+  .bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+  }
+  
+  .feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 0.75rem;
+  }
+  
+  .icon-link {
+    display: inline-flex;
+    align-items: center;
+  }
+  .icon-link > .bi {
+    margin-top: 0.125rem;
+    margin-left: 0.125rem;
+    transition: transform 0.25s ease-in-out;
+    fill: currentColor;
+  }
+  .icon-link:hover > .bi {
+    transform: translate(0.25rem);
+  }
+  
+  .icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.75rem;
+  }
+  
+  .rounded-4 {
+    border-radius: 0.5rem;
+  }
+  .rounded-5 {
+    border-radius: 1rem;
+  }
+  
+  .text-shadow-1 {
+    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+  }
+  .text-shadow-2 {
+    text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+  }
+  .text-shadow-3 {
+    text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+  }
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  /* .hello {
+    display: flex;
+    height: 100vh;
+  }
+   */
+  .feature1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .color {
+    color: #008a59;
+  }
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  @media only screen and (max-width: 1000px) {
+    .justify-content-md-start {
+      justify-content: center !important;
+    }
+    .centering {
+      margin: 0 auto;
+    }
+    .avatar {
+      margin: 25px auto;
+    }
+    .desc {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .space {
+      display: none;
+    }
+    .copyright {
+      margin: 0 auto;
+    }
+    .socials {
+      margin: 0 auto;
+    }
+    .nav {
+      flex-wrap: nowrap;
+    }
+  }
+  /* //////////////////////////////////////// */
+  .ani-boxes > div {
+    background: #f2f2f2;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 0 0 1em;
+    width: 300px;
+  }
+  .ani-boxes:nth-child(even) > div {
+    background: #27b4a8;
+  }
+  
+  .ani-boxes:nth-child(odd) > div {
+    background: #f4645f;
+  }
+  .my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
